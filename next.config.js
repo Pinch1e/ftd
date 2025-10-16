@@ -1,6 +1,9 @@
 const checkEnvVariables = require("./check-env-variables")
 
-checkEnvVariables()
+// Skip environment variable checks during build if backend is not available
+if (process.env.NODE_ENV !== "production" || process.env.MEDUSA_BACKEND_URL) {
+  checkEnvVariables()
+}
 
 /**
  * Medusa Cloud-related environment variables
