@@ -1,6 +1,6 @@
 {
   "name": "kristen couture",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "author": "Medusa re-structured by pinchie",
   "description": "E Commerce Website using MedusaJS and NextJS",
@@ -42,7 +42,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@types/react-instantsearch-dom": "^6.12.3",
-    "ansi-colors": "^4.1.3",
+    "ansi-colors": "^4.1.4",
     "autoprefixer": "^10.4.2",
     "babel-loader": "^8.2.3",
     "eslint": "8.10.0",
